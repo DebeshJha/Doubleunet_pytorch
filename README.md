@@ -1,4 +1,5 @@
 # DoubleU-Net: A Deep Convolutional Neural Network for Medical Image Segmentation
+DoubleU-Net is an enhanced U-Net architecture that integrates the power of pre-trained models and multi-scale feature extraction capabilities. This repository is a comprehensive guide to understanding and applying DoubleU-Net for various medical segmentation tasks.
 
 ## Architecture
 <p align="center">
@@ -39,6 +40,27 @@
 <p align="center">
 <img src="Img/gastro1.png">
 </p>
+
+
+## Applications and Use Cases
+
+1. **Pre-trained Model Integration**: Utilizing established models for better encoders.
+2. **Multi-scale Segmentation**: Addressing varying object sizes with the ASPP module.
+3. **Generalizability**: Reducing dataset-specific architecture tweaks.
+4. **Efficient Learning**: Superior results even with limited training data.
+5. **Reference Model**: Benchmarking and comparison with other segmentation architectures.
+
+## Potential use-case:
+1. **Retinal Image Segmentation**: Segment vessels and structures in fundus images.
+2. **Lung Field Segmentation**: Outline lung fields in chest X-rays.
+3. **Tumor Detection**: Segment tumors in MRI or CT slices.
+4. **Skin Lesion Isolation**: Identify lesions or melanomas in dermoscopic images.
+5. **Bone Segmentation**: Highlight fractures or abnormalities in X-rays.
+6. **Liver Segmentation**: Differentiate liver in abdominal CT scans.
+7. **Brain Structure Segmentation**: Identify cerebellum, cortex, or ventricles in MRI.
+8. **Blood Clot Detection**: Locate clots or plaques in vascular ultrasound images.
+9. **Heart Chamber Segmentation**: Distinguish heart chambers in echocardiograms.
+10. **Kidney and Tumor Segmentation**: Differentiate kidney tissues and tumors in medical scans.
 
 
 ## Citation
